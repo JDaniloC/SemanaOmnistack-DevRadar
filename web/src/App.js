@@ -63,7 +63,7 @@ function App() {
   return (
     <div id="app">
       <aside>
-        <strong> Cadastrar </strong>
+        <strong> Cadastrar Dev </strong>
         <form onSubmit= {handleAddDev}>
           <div className="input-block">
             <label htmlFor="github_username"> Usuário do Github </label>
