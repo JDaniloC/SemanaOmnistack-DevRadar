@@ -21,9 +21,6 @@
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#backend">Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#mobile">Mobile</a>
 </p>
 
 <p align="center">
@@ -60,12 +57,3 @@ yarn install
 yarn start
 ```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido.
-
-## Backend
-Veja em [Backend/README.md](./backend) para informações sobre o Backend e arquitetura.
-
-## Frontend
-Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões.
-
-## Mobile
-Veja em [mobile/README.md](./mobile) para informações sobre o App Mobile
