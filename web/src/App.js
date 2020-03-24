@@ -14,6 +14,10 @@ function App() {
   const [techs, setTechs] = useState('');
   
   useEffect(() => {
+    document.title = "Dev Radar"
+  }, [])
+
+  useEffect(() => {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         const { latitude, longitude } = position.coords

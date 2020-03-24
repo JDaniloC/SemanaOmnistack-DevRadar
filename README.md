@@ -1,21 +1,43 @@
-<img src="./static/omnistack.png" align="center"></img>
-<h1 align="center">Semana Omnistack 10</h1>
-<p align="center">Projeto <strong>DevRadar</strong> desenvolvido durante a Omnistack da Rocketseat</p>
+<h1 align="center">
+    <img alt="DevRadar" src=".github/devradar.svg" width="250px" />
+</h1>
+
+<h4 align="center">
+  🚀 Semana OmniStack 10.0
+</h4>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jdaniloc/semanaomnistack-devradar">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jdaniloc/semanaomnistack-devradar">
+  
+  <a href="https://github.com/jdaniloc/semanaomnistack-devradar/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jdaniloc/semanaomnistack-devradar">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+
 
 <p align="center">
-  <a aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
-    <img src="https://img.shields.io/badge/node.js@lts-12.14.1-informational?logo=Node.JS"></img>
-  </a>
-  <a aria-label="Versão do React" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16120-november-14-2019">
-    <img src="https://img.shields.io/badge/react-16.12.0-informational?logo=react"></img>
-  </a>
-   <a aria-label="Versão do React-native" href="https://www.npmjs.com/package/react-native/v/0.61.5">
-    <img src="https://img.shields.io/badge/React--native-0.61.5-blue?logo=react"></img>
-  </a>
-  <a aria-label="Dia 5 de 5" href="https://rocketseat.com.br/week-10/aulas#5">
-    <img src="https://img.shields.io/badge/Dia-5-green"></img>
-  </a>
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-backend">Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-mobile">Mobile</a>
 </p>
+
+<p align="center">
+  <img alt="Frontend" src=".github/devradar.png" width="100%">
+</p>
+
+## :rocket: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
 
 ## Instalação
 Configure o MongoDB e atualize a string de conexão com seu `User:Senha` no arquivo `index.js`.  
@@ -47,9 +69,3 @@ Veja em [web/README.md](./web) para informações sobre o Frontend e os padrões
 
 ## Mobile
 Veja em [mobile/README.md](./mobile) para informações sobre o App Mobile
-
-<img align="center" src="./static/frontend.gif"></img>
-
-## Licença
-
-[MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
