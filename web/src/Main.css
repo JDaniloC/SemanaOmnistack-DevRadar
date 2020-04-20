@@ -15,6 +15,18 @@ main ul {
     }
 }
 
+#edicao {
+    display: none;
+}
+
+#deleteButton:hover {
+    color:red
+}
+
+#editButton:hover {
+    color: #5a2ea6
+}
+
 li.dev-item {
     background: #FFF;
     box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);

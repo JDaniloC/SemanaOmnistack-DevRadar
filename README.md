@@ -57,3 +57,7 @@ yarn install
 yarn start
 ```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido.
+
+<img src='.github/novas.gif'>
+
+>>> Foi adicionado botões de edição e remoção no frontend, além de uma página 404.

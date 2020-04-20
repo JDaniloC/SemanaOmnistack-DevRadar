@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import './Estilos/pagina404.css'
 
@@ -9,12 +9,16 @@ function Pagina404 (){
     
     return (
         <>
-            <div className="bloco">
-                <h1> 404 </h1>
-                <p> Acho que você se perdeu </p>
+            <div id="notfound">
+                <div class="notfound">
+                    <div class="notfound-404">
+                        <h1>404</h1>
+                    </div>
+                    <h2>Oops! Esta página não pôde ser encontrada</h2>
+                    <p>Desculpe mas essa página que vocês está procurando não existe, foi removida, o caminho foi mudado ou qualquer coisa do tipo</p>
+                    <Link to = '/'> Ir para a página inicial </Link>
+                </div>
             </div>
-            <p> Para voltar à página principal clique na imagem abaixo: </p>
-            <Link to = '/'> Aqui </Link>
         </>
     );
 }

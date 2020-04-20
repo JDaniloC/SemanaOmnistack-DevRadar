@@ -4,12 +4,10 @@ const SearchController = require('./controllers/SearchController')
 
 const routes = Router()
 
-routes.get("/", (request, response) => {
-    return response.json({ message: "Hello World!"})
-})
-
 routes.get('/devs', DevController.index)
 routes.post('/devs', DevController.store)
+routes.delete('/devs/:github_name', DevController.destroy)
+routes.put('/devs/:github_name', DevController.update)
 
 routes.get('/search', SearchController.index)
 
